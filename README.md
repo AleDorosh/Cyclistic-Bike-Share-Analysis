@@ -1,6 +1,10 @@
 # Cyclistic-Bike-Share-Analysis
 Case Study – Google Data Analytics Certificate
 
+## Tableau Dashboard
+
+![Cyclistic Dashboard](dashboard/dashboard.png)
+
 ## Project Overview
 
 Cyclistic is a bike-share company in Chicago that offers single-ride passes, day passes, and annual memberships. The marketing team wants to increase the number of annual members because they provide more stable long-term revenue.
@@ -10,6 +14,12 @@ This project analyzes 12 months of trip data to understand how casual riders and
 ## Business Task
 
 Identify behavioral differences between casual riders and annual members to support marketing strategies aimed at increasing annual memberships.
+
+## Repository Structure
+* data/ – sample dataset  
+* sql/ – SQL queries used for analysis  
+* dashboard/ – Tableau dashboard screenshot  
+* README.md – project documentation
 
 ## Data Sourse
 
@@ -28,7 +38,7 @@ Personally identifiable information has been removed to protect rider privacy.
 
 #### Sample Dataset
 
-A small sample of the dataset structure is provided below.
+A small sample of the dataset structure (50 rows) is provided as CSV file.
 The full dataset (5.5M+ rows) can be downloaded from the official source.
 
 The data has been made available by Motivate International Inc. under this license:
@@ -40,7 +50,6 @@ https://divvybikes.com/data-license-agreement
 * GitHub - Project documentation
 
 ## Data Preparation
-
 Steps performed during data preparation:
 * Imported 12 monthly CSV files into a SQL database
 * Combined files into a single table
@@ -51,7 +60,6 @@ Steps performed during data preparation:
 * Listed most used start and end stations
 
 ## Key Analysis
-
 The following aspects of rider behavior were analyzed:
 * Ride frequency by weekday
 * Ride frequency by month
@@ -62,7 +70,6 @@ The following aspects of rider behavior were analyzed:
 The goal was to identify behavioral differences between casual riders and annual members.
 
 ## Key Findings
-
 #### 1. Members ride mainly during commute hours
 Annual members show clear peaks around 7 - 8 in the morning and 4 - 7 in the evening, suggesting bikes are used for commuting.
 
@@ -85,8 +92,6 @@ Visualizations include:
 * rides by hour of day
 * average trip duration
 * most popular stations
-
-<img width="1199" height="799" alt="Bike Usage Insights Dashboard" src="https://github.com/user-attachments/assets/34dea594-3a94-464e-a218-3a0086c26548" />
 
 ## Recommendations
 
