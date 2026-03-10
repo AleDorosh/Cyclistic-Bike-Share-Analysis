@@ -15,7 +15,7 @@ LIMIT 100;
 --ckeck if column names are consistent and data types make sense
 DESCRIBE total_trips;
 
---VERTIFY DATA
+--VERIFY DATA
 
 --check for duplicate rows
 SELECT COUNT(*) - COUNT(DISTINCT ride_id)
