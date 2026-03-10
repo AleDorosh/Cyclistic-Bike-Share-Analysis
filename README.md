@@ -76,7 +76,7 @@ Members ride more consistently throughout the week and across seasons.
 #### 4. Popular stations differ
 Members commonly start and end rides near business districts, while casual riders frequently start and end near tourist attractions.
 
-## Dashboard
+## Tableau Dashboard
 
 The final Tableau dashboard highlights key usage patterns between rider types.
 Visualizations include:
@@ -86,7 +86,7 @@ Visualizations include:
 * average trip duration
 * most popular stations
 
-<img width="1084" height="724" alt="image" src="https://github.com/user-attachments/assets/a857c4ea-37cf-4921-b636-3edad5aa6b33" />
+<img width="1199" height="799" alt="Bike Usage Insights Dashboard" src="https://github.com/user-attachments/assets/34dea594-3a94-464e-a218-3a0086c26548" />
 
 ## Recommendations
 
