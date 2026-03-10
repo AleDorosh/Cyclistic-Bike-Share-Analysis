@@ -26,6 +26,11 @@ Personally identifiable information has been removed to protect rider privacy.
 * CSV files (one file per month)
 * Contains ride start/end times, start/end station names, station coordinates, rider type, and bike type.
 
+#### Sample Dataset
+
+A small sample of the dataset structure is provided below.
+The full dataset (5.5M+ rows) can be downloaded from the official source.
+
 The data has been made available by Motivate International Inc. under this license:
 https://divvybikes.com/data-license-agreement
 
