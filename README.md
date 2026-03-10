@@ -13,16 +13,21 @@ Identify behavioral differences between casual riders and annual members to supp
 
 ## Data Sourse
 
-The dataset used in this analysis is publicly available and provided by
-Divvy Bikes. The data includes historical trip information from the bike-share system operated in
-Chicago.
+The dataset used in this analysis is publicly available and provided by Divvy Bike Share.
+Trip data can be downloaded from:
+https://divvy-tripdata.s3.amazonaws.com/index.html
 
-### Dataset characteristics:
+The data includes historical trip information from the bike-share system operated in Chicago.
+Personally identifiable information has been removed to protect rider privacy.
+
+#### Dataset characteristics:
 * 12 months of trip data from 2025
 * ~5.5 million rides
 * CSV files (one file per month)
-* Contains ride start/end times, station names, station coordinates, rider type, and bike type
-Personally identifiable information has been removed for privacy.
+* Contains ride start/end times, start/end station names, station coordinates, rider type, and bike type.
+
+The data has been made available by Motivate International Inc. under this license:
+https://divvybikes.com/data-license-agreement
 
 ## Tools Used 
 * SQL (DuckDB) - Data cleaning and analysis
@@ -95,6 +100,7 @@ Offer promotions connected to popular destinations like Navy Pier or Millennium 
 ## Author
 
 Aleksandra Doroshenko
+
 Junior Data Analyst Portfolio Project
 
 ## Acknowledgements
